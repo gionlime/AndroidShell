@@ -13,6 +13,11 @@
 #define LOGF(...)  __android_log_print(ANDROID_LOG_FATAL,LOG_TAG, __VA_ARGS__)
 #define NELEM(x) ((int) (sizeof(x) / sizeof((x)[0])))
 
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 unsigned char*  readFile(const char* file, int *len)
 {
     FILE *fp;

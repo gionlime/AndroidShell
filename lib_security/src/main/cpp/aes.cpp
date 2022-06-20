@@ -2,12 +2,11 @@
 // Created by Administrator on 2020/3/27.
 //
 
-/************************************************************************/
-/*AES：          AES-128,AES-192，AES-256
-/*Author:       chenweiliang
-/*Version:      1.0
-/*Note:         The input data must be 128-bit.
-/************************************************************************/
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 #include "aes.h"
 
 byte AES::sBox[] =

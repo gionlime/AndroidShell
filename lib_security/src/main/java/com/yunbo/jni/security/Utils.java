@@ -6,7 +6,11 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
-
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 public class Utils {
     static {
         System.loadLibrary("security");

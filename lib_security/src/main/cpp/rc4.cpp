@@ -1,6 +1,10 @@
 #include "rc4.h"
 
-//加密或解密
+/**
+ * create by jeek
+ * 2022/6/20
+ * des: 加密或解密
+ **/
 void rc4::rc4_init(unsigned char*s, unsigned char*key, unsigned long Len)
 {
     int i = 0, j = 0;

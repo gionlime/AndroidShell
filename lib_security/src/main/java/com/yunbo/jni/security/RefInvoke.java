@@ -3,7 +3,11 @@ package com.yunbo.jni.security;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 public class RefInvoke {
     /**
      * 反射执行类的静态函数(public)

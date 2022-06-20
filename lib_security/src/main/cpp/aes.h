@@ -6,14 +6,11 @@
 #define DEXSHELL_AES_H
 
 #endif //DEXSHELL_AES_H
-/************************************************************************/
-/*AES：          AES-128,AES-192，AES-256
-/*Author:       chenweiliang
-/*Version:      1.0
-/*Note:         The input data must be 128-bit.
-/*              To see all information output,please uncommet the macro
-/*              definition "#define DEBUG"
-/************************************************************************/
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 
 #include <string.h>
 #include <stdio.h>

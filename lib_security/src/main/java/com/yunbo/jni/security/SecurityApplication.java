@@ -23,6 +23,11 @@ import java.util.List;
 
 import dalvik.system.InMemoryDexClassLoader;
 
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 public class SecurityApplication extends Application {
     //定义好的加密后的文件的存放路径
     private String app_name;

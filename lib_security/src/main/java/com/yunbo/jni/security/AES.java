@@ -10,7 +10,11 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
 
-
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 public class AES {
 
     //16字节

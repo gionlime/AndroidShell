@@ -11,7 +11,11 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
-
+/**
+ * create by jeek
+ * 2022/6/20
+ * des:
+ **/
 public class Zip {
 
     private static void deleteFile(File file){
