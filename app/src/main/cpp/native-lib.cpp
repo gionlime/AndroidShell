@@ -17,7 +17,7 @@
 
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_cn_com_jni_dexshell_MainActivity_stringFromJNI(
+Java_com_yunbo_jni_dexshell_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject jobj/* this */, jstring id) {
 

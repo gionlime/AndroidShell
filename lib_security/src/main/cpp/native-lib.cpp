@@ -77,19 +77,11 @@ bool  writeFileDex(const char * path, const unsigned char * data,long size)
 
     return true;
 }
-//extern "C" JNIEXPORT jstring JNICALL
-//Java_cn_com_jni_dexshell_MainActivity_stringFromJNI(
-//        JNIEnv *env,
-//        jobject jobj/* this */, jstring id) {
-//    std::string nid = jstring2str(env, id);
-//    std::string hello = "Hello from C++";
-//    return env->NewStringUTF(nid.c_str());
-//}
+
 
 using namespace std;
-//cn.com.jni.proxy_core.Utils.native_rc4_de(
 static const char *const kClassJniTest =
-        "cn/com/jni/security/Utils";
+        "com/yunbo/jni/security/Utils";
 
 
 
