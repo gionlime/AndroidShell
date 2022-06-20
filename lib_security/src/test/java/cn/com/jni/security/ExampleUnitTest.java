@@ -1,4 +1,4 @@
-package cn.com.jni.proxy_core;
+package cn.com.jni.security;
 
 import org.junit.Test;
 

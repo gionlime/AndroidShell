@@ -89,14 +89,14 @@ bool  writeFileDex(const char * path, const unsigned char * data,long size)
 using namespace std;
 //cn.com.jni.proxy_core.Utils.native_rc4_de(
 static const char *const kClassJniTest =
-        "cn/com/jni/proxy_core/Utils";
+        "cn/com/jni/security/Utils";
 
 
 
 void rc4Encrypt(unsigned char * data, int len)
 {
     unsigned char s[256] = { 0 } ;//S-box
-    char    key[256] = "8rrh1086omGe8qF0";
+    char    key[256] = "fJQykGZzW00Kp7wt";
 
     rc4::rc4_init(s, (unsigned char*)key, strlen(key));//已经完成了初始化
     rc4::rc4_run((unsigned char*)s, (unsigned char*)data, len);//解密

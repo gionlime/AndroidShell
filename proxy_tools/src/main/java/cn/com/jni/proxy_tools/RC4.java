@@ -13,9 +13,9 @@ import java.io.UnsupportedEncodingException;
  */
 public class RC4 {
     /** ACCESS_TOKEN的加密钥匙 **/
-    public static final String ACCESSKEY = "8rrh1086omGe8qF0";
+    public static final String ACCESSKEY = "fJQykGZzW00Kp7wt";
     /** REFRESH_TOKEN的加密钥匙 **/
-    public static final String REFRESHKEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxREFRESHKEY";
+    public static final String REFRESHKEY = "tZ5YX0KjBGxrA4KkWyATrFmfKeWekm7M";
 
     /** 加密 **/
     public static String encrypt(String data, String key) {

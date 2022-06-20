@@ -1,4 +1,4 @@
-package cn.com.jni.proxy_core;
+package cn.com.jni.security;
 
 import java.io.File;
 import java.io.RandomAccessFile;

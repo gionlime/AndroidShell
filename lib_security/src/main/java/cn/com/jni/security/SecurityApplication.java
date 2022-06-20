@@ -1,7 +1,6 @@
-package cn.com.jni.proxy_core;
+package cn.com.jni.security;
 
 import android.app.Application;
-import android.app.Instrumentation;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -12,7 +11,6 @@ import android.util.ArrayMap;
 import android.util.Log;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Array;
@@ -21,12 +19,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import dalvik.system.InMemoryDexClassLoader;
 
-public class ProxyApplication extends Application {
+public class SecurityApplication extends Application {
     //定义好的加密后的文件的存放路径
     private String app_name;
     private String app_version;

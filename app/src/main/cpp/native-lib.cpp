@@ -21,7 +21,7 @@ Java_cn_com_jni_dexshell_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject jobj/* this */, jstring id) {
 
-    std::string hello = "Hello from C++ ok";
+    std::string hello = "Hello Dex Shell";
     return env->NewStringUTF(hello.c_str());
 }
 
